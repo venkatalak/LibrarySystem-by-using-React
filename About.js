@@ -8,6 +8,14 @@ import img from './OIP.jpg'
 function Aboutpage() {
   return (
     <div>
+      <nav className="navbar">
+        <a className="nav-logo">RGUKT IIIT</a>
+        <ul className="nav-menu">
+          <li className="nav-item">
+            <a className="nav-link">Home</a>
+          </li>
+        </ul>
+      </nav>
       <section class="about-us">
         <div class="about">
           <img src={img} class="pic" />
