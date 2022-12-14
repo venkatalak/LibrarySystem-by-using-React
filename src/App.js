@@ -15,10 +15,10 @@ import { Indexpage, Homepage, Loginpage, Brachespage, Contactpage,
       
       <Navbar /> */}
       <Router>
-      <Homepage />
+      
         <Routes>
-         {/* <Route path="/react" element={<React_fun/>}/> */}
-         <Route path="/Branches" element={<Brachespage/>}/>
+         <Route path="/" element={<Homepage />}/>
+         <Route path="/branches" element={<Brachespage/>}/>
          <Route path="/about" element={<Aboutpage/>}/>
          {/* <Route path="/"   element={<React_fun/>}/> */}
          {/* <Route path="/angular"  element={<Angular_fun/>}/> */}

@@ -9,13 +9,13 @@ function Homepage() {
   return (
     <div>
       <nav className="navbar">
-        <a href="a" className="nav-logo">RGUKT IIIT</a>
+        <a href="a" className="nav-logo"><Link to='/'>RGUKT IIIT</Link></a>
         <ul className="nav-menu">
           <li className="nav-item">
-            <a href="a" className="nav-link">About</a>
+            <a href="a" className="nav-link"><Link to='/about'>about</Link></a>
           </li>
           <li className="nav-item">
-            <div className="nav-link"><Link to='/Branches'>Branches</Link></div>
+            <div className="nav-link"><Link to='/branches'>Branches</Link></div>
           </li>
           <li className="nav-item">
             <a href="a" className="nav-link">Contact</a>
