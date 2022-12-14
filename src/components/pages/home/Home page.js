@@ -18,11 +18,9 @@ function Homepage() {
             <div className="nav-link"><Link to='/branches'>Branches</Link></div>
           </li>
           <li className="nav-item">
-            <a href="a" className="nav-link">Contact</a>
+            <a href="a" className="nav-link"><Link to='/contact'>Contact</Link></a>
           </li>
-          <li className="nav-item">
-            <a href="a" className="nav-link">Profile</a>
-          </li>
+          
         </ul>
       </nav>
       <div className="intro">

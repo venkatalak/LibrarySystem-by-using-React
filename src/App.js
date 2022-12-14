@@ -21,7 +21,7 @@ import { Indexpage, Homepage, Loginpage, Brachespage, Contactpage,
          <Route path="/Home" element={<Homepage/>}/>
          <Route path="/branches" element={<Brachespage/>}/>
          <Route path="/about" element={<Aboutpage/>}/>
-         <Route path="/contactpage"   element={<Contactpage />}/>
+         <Route path="/contact"   element={<Contactpage />}/>
          {/* <Route path="/angular"  element={<Angular_fun/>}/> */}
          {/* <Route path="/node"  element={<Node_fun/>}/> */}
          </Routes>

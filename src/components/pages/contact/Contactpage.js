@@ -13,7 +13,7 @@ function Contactpage() {
         <a className="nav-logo" href="abcd.html">RGUKT IIIT</a>
         <ul className="nav-menu">
           <li className="nav-item">
-            <a className="nav-link" href="contactpage.html"><Link to='/contact'>Home</Link></a>
+            <a className="nav-link" href="a"><Link to='/Home'>Home</Link></a>
           </li>
         </ul>
       </nav>
