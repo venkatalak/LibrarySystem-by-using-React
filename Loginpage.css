@@ -218,3 +218,7 @@ span.validate-tooltip {
     position: static;
   }
 }
+.error{
+  color: #f44336;
+  font-size: 15px;
+}
