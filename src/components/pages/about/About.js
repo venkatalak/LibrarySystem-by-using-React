@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import img from '../images/OIP.jpg'
+import img from '../../../images/OIP.jpg'
 /**
  * This is the helper fucntion to create about page of library system
  * @returns 

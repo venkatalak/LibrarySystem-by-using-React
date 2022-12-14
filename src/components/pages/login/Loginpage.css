@@ -5,7 +5,7 @@
 } */
 
 body {
-  background-image: url(../images/slide-1.jpg);
+  background-image: url(../../../images/slide-1.jpg);
 }
 .animate {
   -webkit-transition: all 0.3s linear;
