@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from "react";
-
+import { Link } from 'react-router-dom';
 /**
  * This is the helper function to create Register page 
  * @returns Register page
@@ -110,7 +110,7 @@ function Registerpage() {
           </div>
           
           <div className="form-group">
-            <button type="button" className="btn btn-block create-account" onClick={handleSubmit}>Create Account</button>
+            <button type="button" className="btn btn-block create-account" onClick={handleSubmit}><Link to='/Home'>Create Account</Link></button>
           </div>
         </form>
       </div>

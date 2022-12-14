@@ -1,5 +1,6 @@
 import React from 'react';
 import './Index page.css';
+import { Link } from 'react-router-dom';
 /**
  * This is the helper function to create Index page for Library system
  * @returns Index page
@@ -15,7 +16,7 @@ function Indexpage() {
         </div>
         <div className="welcome-text">
           <div><h1>Welcome to Smart Library</h1></div>
-          <a href="a">Login</a>
+          <a href=""><Link to='/login'>Login</Link></a>
         </div>
       </header>
     </>

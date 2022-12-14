@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import './Loginpage.css';
+import { Link } from "react-router-dom";
 
 /**
  * This is the helper fucntion to create Login page for the library system
@@ -63,18 +64,18 @@ function Loginpage() {
               <div className="error">{formErrors.password}</div>
             </div>
 
-            <button type="submit" id="login"  onClick={handleSubmit}>Login</button>
+            <button type="submit" id="login"  onClick={handleSubmit}><Link to='/Home'>Login</Link></button>
             <div className="clearfix supporter">
               <div className="pull-left remember-me">
                 <input id="rememberMe" type="checkbox" />
                 <label for="rememberMe">Remember Me</label>
               </div>
-              <a className="forgot pull-right" href="a">Forgot Password?</a>
+              <a className="forgot pull-right" href="a"><Link to='/forget'>Forgot Password?</Link></a>
             </div>
           </form>
         </div>
         <div className="signup-wrapper text-center">
-          <a href="a">Don't have an accout? <span className="text-primary">Create One</span></a>
+          <a href="a">Don't have an accout? <span className="text-primary"><Link to='/register'>Create One</Link></span></a>
         </div>
       </div>
 

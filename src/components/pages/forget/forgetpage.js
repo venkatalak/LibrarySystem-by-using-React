@@ -1,7 +1,7 @@
 import React from 'react';
 import './forgetpage.css';
 import { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 /**
  * This is the helper Function used to create forget page 
  * @returns Forget page 
@@ -66,7 +66,7 @@ function Forgetpage() {
             {/* <span className="lighting"></span> */}
           </div>
 
-          <button type="submit" id="login" onClick={handleSubmit}>Submit</button>
+          <button type="submit" id="login" onClick={handleSubmit}><Link to='/login'>Submit</Link></button>
         </div>
       </div>
     </>
