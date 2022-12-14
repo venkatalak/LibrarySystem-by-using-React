@@ -1,5 +1,6 @@
 import React from "react";
 import './Home page.css';
+import { Link } from "react-router-dom";
 /**
  * This is the helper function to create Home page for the library system
  * @returns Home page
@@ -14,7 +15,7 @@ function Homepage() {
             <a href="a" className="nav-link">About</a>
           </li>
           <li className="nav-item">
-            <a href="a" className="nav-link">Branches</a>
+            <div className="nav-link"><Link to='/Branches'>Branches</Link></div>
           </li>
           <li className="nav-item">
             <a href="a" className="nav-link">Contact</a>
