@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import img from '../../../images/OIP.jpg'
+import { Link } from 'react-router-dom/dist';
 /**
  * This is the helper fucntion to create about page of library system
  * @returns 
@@ -13,7 +14,7 @@ function Aboutpage() {
         <a className="nav-logo" href="about.html">RGUKT IIIT</a>
         <ul className="nav-menu">
           <li className="nav-item">
-            <a href="a" className="nav-link">Home</a>
+            <a href="a" className="nav-link"><Link to='/Home'>Home</Link></a>
           </li>
         </ul>
       </nav>

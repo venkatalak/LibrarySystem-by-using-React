@@ -1,5 +1,6 @@
 import React from "react";
 import './Contactpage.css';
+import { Link } from "react-router-dom";
 /**
  * This is the helper function to create contact page for the library system
  * @returns contact page
@@ -12,7 +13,7 @@ function Contactpage() {
         <a className="nav-logo" href="abcd.html">RGUKT IIIT</a>
         <ul className="nav-menu">
           <li className="nav-item">
-            <a className="nav-link" href="abcd.html">Home</a>
+            <a className="nav-link" href="contactpage.html"><Link to='/contact'>Home</Link></a>
           </li>
         </ul>
       </nav>

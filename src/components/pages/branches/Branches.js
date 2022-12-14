@@ -1,5 +1,6 @@
 import React from 'react';
 import './Branches.css';
+import { Link } from 'react-router-dom';
 /**
  * This is the helper function to create branches page for library system
  * @returns 
@@ -11,7 +12,7 @@ function Brachespage() {
       <div className="menu">
         <ul>
 
-          <li><a href="Home page.html">Home</a></li>
+          <li><a href="Home page.html"><Link to='/Home'>Home</Link></a></li>
           <li>CSE
             <div className="submenu1">
               <ul>
