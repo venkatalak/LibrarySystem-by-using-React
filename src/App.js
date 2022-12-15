@@ -1,6 +1,6 @@
 import {
   Indexpage, Homepage, Loginpage, Brachespage, Contactpage,
-  Forgetpage, Registerpage, Aboutpage,Librarianpage
+  Forgetpage, Registerpage, Aboutpage,Librarianpage,LibrarianOperationsPage
 } from './components/pages'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -24,6 +24,7 @@ function App() {
           <Route path="/forget" element={<Forgetpage />} />
           <Route path="/register" element={<Registerpage />} />
           <Route path="/librarian" element={<Librarianpage/>}/>
+          <Route path="/librarianoperationspage" element={<LibrarianOperationsPage/>}/>
 
         </Routes>
       </Router>

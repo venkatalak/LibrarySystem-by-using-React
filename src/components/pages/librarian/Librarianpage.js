@@ -4,7 +4,7 @@ import './Librarianpage.css';
 import { Link } from "react-router-dom";
 
 /**
- * This is the helper fucntion to create Login page for the library system
+ * This is the helper fucntion to create Login page for librarian to login the library system
  * @returns login page
  */
 function Librarianpage() {
@@ -64,7 +64,7 @@ function Librarianpage() {
               <div className="error">{formErrors.password}</div>
             </div>
 
-            <button type="submit" id="login"  onClick={handleSubmit}><Link to='/Home'>Login</Link></button>
+            <button type="submit" id="login"  onClick={handleSubmit}><Link to='/LibrarianOperationsPage'>Login</Link></button>
             <div className="clearfix supporter">
               <div className="pull-left remember-me">
                 <input id="rememberMe" type="checkbox" />
