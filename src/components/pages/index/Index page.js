@@ -8,11 +8,11 @@ import { Link } from 'react-router-dom';
 function Indexpage() {
   return (
     <>
-      <header class="header">
+      <header class="headerpart">
         <a href="a" class="logo">RGUKTIIIT</a>
         <nav class="nav-items">
           <a href="a"><Link to='/about'>About</Link></a>
-          <a href="a"><Link to='/Librarian'>Librarian</Link></a>
+          <a href="a"><Link to='/Librarian'>Librarian_login</Link></a>
         </nav>
       </header>
       <div class="intro">

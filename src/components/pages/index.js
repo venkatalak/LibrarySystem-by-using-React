@@ -8,6 +8,7 @@ import Loginpage from "./login/Loginpage";
 import Registerpage from "./register/registerpage";
 import Librarianpage from "./librarian/Librarianpage";
 import LibrarianOperationsPage from "./librarianOperations/LibrarianOperationsPage";
+import AddBooksPage from "./AddBooksPage/AddBooksPage";
 
 export { 
   Aboutpage, 
@@ -19,5 +20,6 @@ export {
   Loginpage, 
   Registerpage,
   Librarianpage,
-  LibrarianOperationsPage
+  LibrarianOperationsPage,
+  AddBooksPage
 }

@@ -11,19 +11,19 @@ function LibrarianOperationsPage() {
       <nav className="navbar">
         <a href="a" className="nav-logo">RGUKTIIIT</a>
         <ul className="nav-menu">
-          <li className="nav-item">
-            <a href="a" className="nav-link"><Link to='/about'>AddBooks</Link></a>
+          <li className="nav-it">
+            <a href="a" className="nav-linku"><Link to='/AddBooksPage'>AddBooks</Link></a>
           </li>
-          <li className="nav-item">
-            <div className="nav-link"><Link to='/branches'>DeleteBooks</Link></div>
+          <li className="nav-it">
+            <div className="nav-linku"><Link to='/branches'>DeleteBooks</Link></div>
           </li>
-          <li className="nav-item">
-            <a href="a" className="nav-link"><Link to='/'>AvailableBooks</Link></a>
+          <li className="nav-it">
+            <a href="a" className="nav-linku"><Link to='/gti'>AvailableBooks</Link></a>
           </li>
           
         </ul>
       </nav>
-      <div className="intro">
+      <div className="introo">
         <h2>Smart Library</h2>
         <p>Reading is dreaming with open eyes.</p>
       </div>
