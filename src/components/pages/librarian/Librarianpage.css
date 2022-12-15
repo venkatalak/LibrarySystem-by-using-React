@@ -17,10 +17,10 @@ body {
 .pull-left {
   float: left;
 }
-.pull-right {
+.pull-righttt {
   float: right;
 }
-.clearfix:after {
+.clearfixxx:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -28,20 +28,20 @@ body {
   clear: both;
   height: 0;
 }
-.clearfix {
+.clearfixxx {
   display: inline-block;
 }
 /* start commented backslash hack \*/
-* html .clearfix {
+* html .clearfixxx {
   height: 1%;
 }
-.clearfix {
+.clearfixxx {
   display: block;
 }
 /* close commented backslash hack */
-a {
+/* a {
   /* color: #00A885;  removed to show login button clearly  */
-}
+*/
 a:hover,
 a:focus {
   color: #00755d;
@@ -218,7 +218,7 @@ span.validate-tooltip {
     position: static;
   }
 }
-.error{
+.errorrr{
   color: #f44336;
   font-size: 15px;
 }

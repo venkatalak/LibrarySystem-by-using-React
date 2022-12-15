@@ -12,7 +12,7 @@ function Homepage() {
         <a href="a" className="nav-logo"><Link to='/'>RGUKT IIIT</Link></a>
         <ul className="nav-menu">
           <li className="nav-item">
-            <a href="a" className="nav-link"><Link to='/about'>about</Link></a>
+            <a href="a" className="nav-link"><Link to='/about'>About</Link></a>
           </li>
           <li className="nav-item">
             <div className="nav-link"><Link to='/branches'>Branches</Link></div>

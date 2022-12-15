@@ -49,28 +49,28 @@ function Librarianpage() {
 
   return (
     <div>
-      <div className="wrapper">
-        <div className="inner-warpper text-center">
-          <h2 className="title">Librarian Login</h2>
-          <form action="" id="formvalidate">
-            <div className="input-group">
-              <input className="form-control" name="email" id="email" type="text" placeholder="Enter your email" onChange={handleInput}/>
+      <div className="wrapperrr">
+        <div className="inner-warpper text-centerrr">
+          <h2 className="titleee">Librarian Login</h2>
+          <form action="" id="formvalidateee">
+            <div className="input-grouppp">
+              <input className="form-controlll" name="email" id="email" type="text" placeholder="Enter your email" onChange={handleInput}/>
               <span className="lighting"></span>
-              <div className="error">{formErrors.email}</div>
+              <div className="errorrr">{formErrors.email}</div>
             </div>
-            <div className="input-group">
-              <input className="form-control" name="userPassword" id="userPassword" type="password" placeholder="Enter your password" onChange={handleInput} />
+            <div className="input-grouppp">
+              <input className="form-controlll" name="userPassword" id="userPassword" type="password" placeholder="Enter your password" onChange={handleInput} />
               <span className="lighting"></span>
-              <div className="error">{formErrors.password}</div>
+              <div className="errorrr">{formErrors.password}</div>
             </div>
 
             <button type="submit" id="login"  onClick={handleSubmit}><Link to='/LibrarianOperationsPage'>Login</Link></button>
-            <div className="clearfix supporter">
-              <div className="pull-left remember-me">
-                <input id="rememberMe" type="checkbox" />
+            <div className="clearfixxx supporterrr">
+              <div className="pull-left remember-meee">
+                <input id="rememberMeee" type="checkbox" />
                 <label for="rememberMe">Remember Me</label>
               </div>
-              <a className="forgot pull-right" href="a"><Link to='/forget'>Forgot Password?</Link></a>
+              <a className="forgot pull-righttt" href="a"><Link to='/forget'>Forgot Password?</Link></a>
             </div>
           </form>
         </div>
