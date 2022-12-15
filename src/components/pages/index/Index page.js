@@ -8,17 +8,20 @@ import { Link } from 'react-router-dom';
 function Indexpage() {
   return (
     <>
-      <header>
-        <div className="wrapper">
-          <div className="logo">
-            <img src="https://www.fresherstore.com/wp-content/uploads/2021/01/RGUKT-logo.jpg" alt="" />
-          </div>
-        </div>
-        <div className="welcome-text">
-          <div><h1>Welcome to Smart Library</h1></div>
-          <a href="a"><Link to='/login'>Login</Link></a>
-        </div>
+      <header class="header">
+        <a href="a" class="logo">RGUKTIIIT</a>
+        <nav class="nav-items">
+          <a href="a"><Link to='/about'>About</Link></a>
+        </nav>
       </header>
+      <div class="intro">
+        <h1>Welcome to RGUKT IIIT Library</h1>
+        <p>You Can Explore More Books here!!</p>
+        <button class="but"><Link to="/login">Login</Link></button>
+      </div>
+      <div className="footer">
+    @Copyright <a href="abcd.html"> RGUKT </a> 2022- All Right Reserved.
+  </div>
     </>
   );
 
