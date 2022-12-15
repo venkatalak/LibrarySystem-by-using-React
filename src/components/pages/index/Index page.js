@@ -16,7 +16,7 @@ function Indexpage() {
         </div>
         <div className="welcome-text">
           <div><h1>Welcome to Smart Library</h1></div>
-          <a href=""><Link to='/login'>Login</Link></a>
+          <a href="a"><Link to='/login'>Login</Link></a>
         </div>
       </header>
     </>
