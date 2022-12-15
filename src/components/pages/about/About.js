@@ -29,7 +29,7 @@ function Aboutpage() {
         </div>
       </section>
       <div className="footer">
-        @Copyright <a href="abcd.html"> RGUKT </a> 2022- All Right Reserved.
+        @Copyright <a href="https://rguktn.ac.in/about/aboutrgukt/"> RGUKT </a> 2022- All Right Reserved.
       </div>
     </div>
   )

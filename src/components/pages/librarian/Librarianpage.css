@@ -39,9 +39,9 @@ body {
   display: block;
 }
 /* close commented backslash hack */
-/* a {
-  /* color: #00A885;   removed to show login button clearly */
- */
+a {
+  /* color: #00A885;  removed to show login button clearly  */
+}
 a:hover,
 a:focus {
   color: #00755d;
@@ -221,8 +221,4 @@ span.validate-tooltip {
 .error{
   color: #f44336;
   font-size: 15px;
-}
-.butt{
-  color:black;
-  font-weight:bolder;
 }

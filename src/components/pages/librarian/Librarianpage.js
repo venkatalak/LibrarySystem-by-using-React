@@ -1,13 +1,13 @@
 import { useState } from "react";
 import React from "react";
-import './Loginpage.css';
+import './Librarianpage.css';
 import { Link } from "react-router-dom";
 
 /**
  * This is the helper fucntion to create Login page for the library system
  * @returns login page
  */
-function Loginpage() {
+function Librarianpage() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [formErrors, setFormErrors] = useState("")
@@ -51,7 +51,7 @@ function Loginpage() {
     <div>
       <div className="wrapper">
         <div className="inner-warpper text-center">
-          <h2 className="title">Login to your account</h2>
+          <h2 className="title">Librarian Login</h2>
           <form action="" id="formvalidate">
             <div className="input-group">
               <input className="form-control" name="email" id="email" type="text" placeholder="Enter your email" onChange={handleInput}/>
@@ -64,7 +64,7 @@ function Loginpage() {
               <div className="error">{formErrors.password}</div>
             </div>
 
-            <button type="submit" id="login" class="butt" onClick={handleSubmit}><Link to='/Home'>Login</Link></button>
+            <button type="submit" id="login"  onClick={handleSubmit}><Link to='/Home'>Login</Link></button>
             <div className="clearfix supporter">
               <div className="pull-left remember-me">
                 <input id="rememberMe" type="checkbox" />
@@ -74,13 +74,10 @@ function Loginpage() {
             </div>
           </form>
         </div>
-        <div className="signup-wrapper text-center">
-          <a href="a">Don't have an accout? <span className="text-primary"><Link to='/register'>Create One</Link></span></a>
-        </div>
       </div>
 
 
     </div>
   )
 }
-export default Loginpage;
+export default Librarianpage;

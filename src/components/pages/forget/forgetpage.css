@@ -7,7 +7,7 @@ input[type="checkbox"] {
 button {
   cursor: pointer;
   background: #00A885;
-  width: 100%;
+  /* width: 100%; */
   border: 0;
   padding: 10px 15px;
   color: #fff;

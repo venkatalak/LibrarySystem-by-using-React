@@ -87,7 +87,11 @@ function Brachespage() {
           </li>
         </ul>
       </div>
+      <div className="footer">
+    @Copyright <a href="https://rguktn.ac.in/about/aboutrgukt/"> RGUKT </a> 2022- All Right Reserved.
+  </div>
     </div>
+    
   )
 }
 export default Brachespage;
