@@ -10,11 +10,11 @@ function DeleteBooksPage() {
 
   return (
     <>
-      <nav className="na">
-        <a className="nav-log" href="aa">RGUKT IIIT</a>
-        <ul className="nav-men">
-          <li className="nav-ite">
-            <a href="a" className="nav-lin"><Link to='/LibrarianOperationsPage'>LibrarianOperationsPage</Link></a>
+      <nav className="navv">
+        <a className="nav-loo" href="aa">RGUKT IIIT</a>
+        <ul className="nav-menuu">
+          <li className="nav-itemm">
+            <a href="a" className="nav-linkk"><Link to='/LibrarianOperationsPage'>Back</Link></a>
           </li>
         </ul>
       </nav>

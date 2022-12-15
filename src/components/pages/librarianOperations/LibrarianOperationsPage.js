@@ -18,7 +18,7 @@ function LibrarianOperationsPage() {
             <div className="nav-linku"><Link to='/DeleteBooksPage'>DeleteBooks</Link></div>
           </li>
           <li className="nav-it">
-            <a href="a" className="nav-linku"><Link to='/gti'>AvailableBooks</Link></a>
+            <a href="a" className="nav-linku"><Link to='/AvailableBooksPage'>AvailableBooks</Link></a>
           </li>
           
         </ul>

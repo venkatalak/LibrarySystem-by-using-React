@@ -10,6 +10,7 @@ import Librarianpage from "./librarian/Librarianpage";
 import LibrarianOperationsPage from "./librarianOperations/LibrarianOperationsPage";
 import AddBooksPage from "./AddBooksPage/AddBooksPage";
 import DeleteBooksPage from "./DeleteBooks/DeleteBooksPage";
+import AvailableBooksPage from "./Availablebooks/AvailableBooksPage";
 
 export { 
   Aboutpage, 
@@ -23,5 +24,6 @@ export {
   Librarianpage,
   LibrarianOperationsPage,
   AddBooksPage,
-  DeleteBooksPage
+  DeleteBooksPage,
+  AvailableBooksPage
 }

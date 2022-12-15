@@ -14,7 +14,7 @@ function AddBooksPage() {
         <a className="nav-log" href="aa">RGUKT IIIT</a>
         <ul className="nav-men">
           <li className="nav-ite">
-            <a href="a" className="nav-lin"><Link to='/LibrarianOperationsPage'>LibrarianOperationsPage</Link></a>
+            <a href="a" className="nav-lin"><Link to='/LibrarianOperationsPage'>Back</Link></a>
           </li>
         </ul>
       </nav>

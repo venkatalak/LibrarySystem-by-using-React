@@ -14,7 +14,7 @@
 
 }
 
-.na {
+.navv {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,30 +22,30 @@
   padding: 1rem 1.5rem;
 }
 
-.nav-log {
+.nav-loo {
   font-size: 30px;
   font-weight: 500;
   color: white;
 }
 
-.nav-men {
+.nav-menuu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-ite {
+.nav-itemm {
   margin-left: 3rem;
 }
 
-.nav-lin {
-  font-size: 19px;
-
+.nav-linkk {
+  font-size: 26px;
+  font-weight: bold;
   color: white;
 }
 
 
-.nav-lin:hover {
+.nav-linkk:hover {
   color: #1ae5f7;
 }
 
