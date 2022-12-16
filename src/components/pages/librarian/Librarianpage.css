@@ -152,8 +152,8 @@ span.validate-tooltip {
   padding: 50px 30px 60px;
   box-shadow: 1px 1.732px 10px 0px rgba(0, 0, 0, 0.063);
 }
-.wrapper .title {
-  margin-top: 0;
+ .titleee {
+  margin-top: 10px;
 }
 .wrapper .supporter {
   margin-top: 10px;

@@ -51,8 +51,9 @@ function Librarianpage() {
     <div>
       <div className="wrapperrr">
         <div className="inner-warpper text-centerrr">
-          <h2 className="titleee">Librarian Login</h2>
+          {/* <h2 className="titleee">Librarian Login</h2> */}
           <form action="" id="formvalidateee">
+          <h2 className="titleee">Librarian Login</h2>
             <div className="input-grouppp">
               <input className="form-controlll" name="email" id="email" type="text" placeholder="Enter your email" onChange={handleInput}/>
               <span className="lighting"></span>
@@ -70,7 +71,6 @@ function Librarianpage() {
                 <input id="rememberMeee" type="checkbox" />
                 <label for="rememberMe">Remember Me</label>
               </div>
-              <a className="forgot pull-righttt" href="a"><Link to='/forget'>Forgot Password?</Link></a>
             </div>
           </form>
         </div>
