@@ -18,9 +18,19 @@ function LibrarianOperationsPage() {
             <div className="nav-linku"><Link to='/DeleteBooksPage'>DeleteBooks</Link></div>
           </li>
           <li className="nav-it">
-            <a href="a" className="nav-linku"><Link to='/AvailableBooksPage'>AvailableBooks</Link></a>
+            <a href="a" className="nav-linku"><Link to='/StudentDetailsPage'>StudentDetails</Link></a>
           </li>
-          
+          <li className="nav-it">
+            <a href="a" className="nav-linku"><Link to='/StudentsInformationPage'>StudentsInformation</Link></a>
+          </li>
+          <li className="nav-it">
+            <a href="a" className="nav-linku"><Link to='/TotalBooksPage'>TotalBooks</Link></a>
+          </li>
+         
+          <li className="nav-it">
+            <a href="a" className="nav-linku"><Link to='/'>Logout</Link></a>
+          </li>
+
         </ul>
       </nav>
       <div className="introo">
@@ -28,8 +38,8 @@ function LibrarianOperationsPage() {
         <p>Reading is dreaming with open eyes.</p>
       </div>
       <div className="footer">
-    @Copyright <a href="https://rguktn.ac.in/about/aboutrgukt/"> RGUKT </a> 2022- All Right Reserved.
-  </div>
+        @Copyright <a href="https://rguktn.ac.in/about/aboutrgukt/"> RGUKT </a> 2022- All Right Reserved.
+      </div>
     </div>
   )
 

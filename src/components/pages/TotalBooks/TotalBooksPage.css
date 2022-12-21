@@ -5,7 +5,7 @@
 }
 
 
-.hello {
+.hellostudentt {
 
   background-image: url("https://cdn.wallpapersafari.com/18/85/udTL2N.jpg");
   position: absolute;
@@ -14,7 +14,7 @@
 
 }
 
-.navvv {
+.navstudentt {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,38 +22,38 @@
   padding: 1rem 1.5rem;
 }
 
-.nav-looo {
+.nav-looostudentt {
   font-size: 30px;
   font-weight: 500;
   color: white;
 }
 
-.nav-menuuu {
+.nav-menuuustudentt {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-itemmm {
+.nav-itemmmstudentt {
   margin-left: 3rem;
 }
 
-.nav-linkkk {
+.nav-linkkkstudentt {
   font-size: 26px;
   font-weight: bold;
   color: white;
 }
 
 
-.nav-linkkk:hover {
+.nav-linkkkstudentt:hover {
   color: #1ae5f7;
 }
 
-form {
+#studenttt{
   position: relative;
   width: 360px;
-  height: 325px;
-  margin: 100px auto;
+  height: 300px;
+  margin: 50px auto;
   text-align: center;
   background: #ecf0f1;
   padding: 40px;
@@ -89,24 +89,11 @@ input {
   font-weight: 600;
   font-size: 16px;
 }
-input {
-  display: block;
-  width: 315px;
-  padding: 14px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  border: 0;
-  margin-bottom: 12px;
-  color: #7f8c8d;
-  font-weight: 600;
-  font-size: 16px;
-}
 
 
-.button {
+.buttonnn {
   position: relative;
-  float: left;
+  float: center;
   width: 145px;
   margin-top: 10px;
   background: #3498db;

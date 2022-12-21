@@ -1,6 +1,7 @@
 import {
   Indexpage, Homepage, Loginpage, Brachespage, Contactpage,
-  Forgetpage, Registerpage, Aboutpage, Librarianpage, LibrarianOperationsPage, AddBooksPage, DeleteBooksPage,AvailableBooksPage
+  Forgetpage, Registerpage, Aboutpage, Librarianpage, LibrarianOperationsPage, AddBooksPage, 
+  DeleteBooksPage,StudentDetailsPage,StudentsInformationPage,TotalBooksPage
 } from './components/pages'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -27,7 +28,9 @@ function App() {
           <Route path="/librarianOperationspage" element={<LibrarianOperationsPage />} />
           <Route path="/AddBookspage" element={<AddBooksPage />} />
           <Route path="/DeleteBookspage" element={<DeleteBooksPage />} />
-          <Route path="/AvailableBookspage" element={<AvailableBooksPage />} />
+          <Route path="/StudentDetailspage" element={<StudentDetailsPage />} />
+          <Route path="/StudentsInformationpage" element={<StudentsInformationPage />} />
+          <Route path="/TotalBooksPage" element={<TotalBooksPage />} />
 
         </Routes>
       </Router>
