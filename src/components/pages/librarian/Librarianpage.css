@@ -86,11 +86,11 @@ span.validate-tooltip {
   -webkit-animation: tooltipanimation 0.3s 1;
   animation: tooltipanimation 0.3s 1;
 }
-.input-group {
+.input-grouppp {
   position: relative;
   margin-bottom: 20px;
 }
-.input-group label {
+.input-grouppp label {
   position: absolute;
   top: 9px;
   left: 10px;
@@ -102,7 +102,7 @@ span.validate-tooltip {
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-.input-group input {
+.input-grouppp input {
   outline: none;
   display: block;
   width: 100%;
@@ -117,7 +117,7 @@ span.validate-tooltip {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-.input-group .lighting {
+.input-grouppp .lighting {
   background: #00A885;
   width: 0;
   height: 2px;
@@ -128,17 +128,17 @@ span.validate-tooltip {
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-.input-group.focused .lighting {
+.input-grouppp.focused .lighting {
   width: 100%;
 }
-.input-group.focused label {
+.input-grouppp.focused label {
   background: #fff;
   font-size: 12px;
   top: -8px;
   left: 5px;
   color: #00A885;
 }
-.input-group span.validate-tooltip {
+.input-grouppp span.validate-tooltip {
   margin-top: 0;
 }
 .wrapper {
@@ -153,7 +153,8 @@ span.validate-tooltip {
   box-shadow: 1px 1.732px 10px 0px rgba(0, 0, 0, 0.063);
 }
  .titleee {
-  margin-top: 10px;
+  margin-bottom: 20px;
+  color: black;
 }
 .wrapper .supporter {
   margin-top: 10px;
@@ -161,8 +162,9 @@ span.validate-tooltip {
   color: #8E8E8E;
   cursor: pointer;
 }
-.wrapper .remember-me {
+.wrapper .remember-meee {
   cursor: pointer;
+  color: black;
 }
 .wrapper input[type="checkbox"] {
   float: left;
@@ -172,6 +174,7 @@ span.validate-tooltip {
 }
 .wrapper label[for="rememberMe"] {
   cursor: pointer;
+  color: black;
 }
 .wrapper .signup-wrapper {
   padding: 10px;
@@ -221,4 +224,15 @@ span.validate-tooltip {
 .errorrr{
   color: #f44336;
   font-size: 15px;
+}
+.footer {
+  position: fixed;
+  min-height: 10%;
+  bottom: 0px;
+  width: 100%;
+  padding: 30px;
+  background-color: rgb(15, 5, 5);
+  color: white;
+  text-align: center;
+  font-size: 20px;
 }

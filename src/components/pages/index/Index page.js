@@ -17,8 +17,8 @@ function Indexpage() {
       </header>
       <div class="intro">
         <h1>Welcome to RGUKT IIIT Library</h1>
-        <p>You Can Explore More Books here!!</p>
-        <button class="but"><Link to="/login">Student/teacher Login</Link></button>
+        <p>You Can Check Available Books here!!</p>
+        <button class="but"><Link to="/login">Student/Teacher Login</Link></button>
       </div>
       <div className="footer">
     @Copyright <a href="https://rguktn.ac.in/about/aboutrgukt/"> RGUKT </a> 2022- All Right Reserved.

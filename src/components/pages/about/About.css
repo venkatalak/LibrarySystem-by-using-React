@@ -5,49 +5,49 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-.navbar {
+.navbarabout {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #151617;
   padding: 1rem 1.5rem;
 }
-.nav-logo {
+.nav-logoabout {
   font-size: 30px;
   font-weight: 500;
   color: white;
 }
-.nav-menu {
+.nav-menuabout {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-item {
+.nav-itemabout {
   margin-left: 3rem;
 }
 
-.nav-link{
+.nav-linkabout{
   font-size: 19px;
 
   color: white; 
 }
 
 
-.nav-link:hover{
+.nav-linkabout:hover{
   color: #1ae5f7;
 }
-.about-us{
+.about-usabout{
   height: 100vh;
   width: 100%;
   padding: 90px 0;
   background: #ddd;
 }
-.pic{
+.picabout{
   height: 350px;
   width:  350px;
 }
-.about{
+.aboutabout{
   width: 1130px;
   max-width: 85%;
   margin: 0 auto;
@@ -55,27 +55,30 @@
   align-items: center;
   justify-content: space-around;
 }
-.text{
+.textabout{
   width: 540px;
 }
-.text h2{
+.textabout h2{
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 10px;
+  color: #151617;
 
 }
-.text h5{
+.textabout h5{
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 20px;
+  color: #151617;
 }
 span{
   color: #4070f4;
 }
-.text p{
+.textabout p{
   font-size: 20px;
   line-height: 25px;
   letter-spacing: 1px;
+  color: #151617;
 }
 .data{
   margin-top: 30px;

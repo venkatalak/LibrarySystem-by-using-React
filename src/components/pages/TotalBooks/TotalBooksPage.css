@@ -1,11 +1,11 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-  /*   font-family: 'Source Sans Pro', sans-serif; */
-}
+  /*   font-family: 'Source Sans Pro', sans-serif;
+} */
 
 
-.hellostudentt {
+/* .hellostudentt {
 
   background-image: url("https://cdn.wallpapersafari.com/18/85/udTL2N.jpg");
   position: absolute;
@@ -116,4 +116,4 @@ input {
   color: white;
   text-align: center;
   font-size: 20px;
-}
+} */ 

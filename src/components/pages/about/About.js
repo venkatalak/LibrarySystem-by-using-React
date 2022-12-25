@@ -10,21 +10,21 @@ import { Link } from 'react-router-dom/dist';
 function Aboutpage() {
   return (
     <div>
-      <nav className="navbar">
-        <a className="nav-logo" href="about.html">RGUKT IIIT</a>
-        <ul className="nav-menu">
-          <li className="nav-item">
-            <a href="a" className="nav-link"><Link to='/Home'>Home</Link></a>
+      <nav className="navbarabout">
+        <a className="nav-logoabout" href="about.html">RGUKT IIIT</a>
+        <ul className="nav-menuabout">
+          <li className="nav-itemabout">
+            <a href="a" className="nav-linkabout"><Link to='/Home'>Home</Link></a>
           </li>
         </ul>
       </nav>
-      <section className="about-us">
-        <div className="about">
-          <img src={img} className="pic" alt="picchidi" />
-          <div className="text">
+      <section className="about-usabout">
+        <div className="aboutabout">
+          <img src={img} className="picabout" alt="picchidi" />
+          <div className="textabout">
             <h2>About </h2>
             <h5>Smart Library<span>@RGUKT IIIT</span></h5>
-            <p>This website gives you to that the which books available in the library and you can also read those books in this website also to save your time.you can save your time.</p>
+            <p>This website gives you to that the which books available in the library .This Website helps you to save your time.</p>
           </div>
         </div>
       </section>
